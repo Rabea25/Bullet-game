@@ -14,6 +14,7 @@ class Player:
         self.spd = spd
         self.img = pygame.image.load("pixil-frame-1.png")
         self.rect = None
+        self.hp = 10
 
     def update(self, uin):
         if uin[pygame.K_d]:
